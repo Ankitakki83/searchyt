@@ -22,13 +22,36 @@
     background-color: #eee;
 }
 
-.videoContent {
-    display: inline-flex;
-    margin-left: 50px;
-    width: 70%;
-    height: 80%;
-}
-
 .VideoList {
     margin-left: 40%;
+}
+
+.VideoPlayer {
+    display: flex;
+}
+
+.VideoPlay {
+    width: 50%;
+    height: auto;
+}
+
+.VideoPlayList {
+    width: 45%;
+    height: auto;
+}
+
+.videoContent {
+    width: 700px;
+    height: 370px;
+    margin-left: 60px;
+}
+
+.VideoTitle {
+    width: 630px;
+    height: auto;
+    margin-left: 130px;
+    margin-top: 20px;
+    background-color: #cac7c7;
+    align-content: center;
+    padding: 20px;
 }
